@@ -1,6 +1,6 @@
 ﻿namespace ARJArchive
 {
-    enum FileType : byte
+    public enum FileType : byte
     {
         Binary = 0,
 		SevenBitText = 1,

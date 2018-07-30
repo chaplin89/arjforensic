@@ -1,6 +1,6 @@
 ﻿namespace ARJArchive
 {
-    enum CompressionMethod : byte
+    public enum CompressionMethod : byte
     {
         Stored = 0,
         CompressedMost = 1,

@@ -42,9 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ARJARchiveDescriptor.cs" />
+    <Compile Include="LocalFileHeaderDescriptor.cs" />
+    <Compile Include="BasicFileHeader.cs" />
+    <Compile Include="BasicMainHeader.cs" />
+    <Compile Include="BinaryReaderExtensions.cs" />
     <Compile Include="CompressionMethod.cs" />
     <Compile Include="FileType.cs" />
+    <Compile Include="GlobalHeaderDescriptor.cs" />
     <Compile Include="HostType.cs" />
     <Compile Include="InternalFlag.cs" />
     <Compile Include="Program.cs" />

@@ -1,6 +1,6 @@
 ﻿namespace ARJArchive
 {
-    enum HostType : byte
+    public enum HostType : byte
     {
         MSDOS = 0,
         PRIMOS = 1,
